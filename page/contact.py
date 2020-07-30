@@ -1,10 +1,7 @@
-from time import sleep
-
 from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webdriver import WebDriver
 
-from selenium_wechat_po.base.base_page import BasePage
-from selenium_wechat_po.page.add_member import AddMember
+from base.base_page import BasePage
+from page.add_member import AddMember
 
 
 class Contact(BasePage):

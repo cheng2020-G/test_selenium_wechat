@@ -1,10 +1,8 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-from selenium_wechat_po.base.base_page import BasePage
-from selenium_wechat_po.page.add_member import AddMember
-from selenium_wechat_po.page.contact import Contact
+from base.base_page import BasePage
+from page.add_member import AddMember
+from page.contact import Contact
 
 
 class Main(BasePage):

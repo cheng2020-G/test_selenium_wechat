@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webdriver import WebDriver
 
-from selenium_wechat_po.base.base_page import BasePage
+from base.base_page import BasePage
 
 
 class AddMember(BasePage):

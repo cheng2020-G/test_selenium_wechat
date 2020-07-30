@@ -1,6 +1,6 @@
 import pytest
 
-from selenium_wechat_po.page.main import Main
+from page.main import Main
 
 
 class TestAddMember():

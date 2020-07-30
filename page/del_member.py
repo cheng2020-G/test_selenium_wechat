@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from selenium_wechat_po.base.base_page import BasePage
+from base.base_page import BasePage
 
 
 class DelMember(BasePage):
@@ -10,4 +10,3 @@ class DelMember(BasePage):
         list = [ele_members.get_attribute("title") for del_members in ele_members]
         if del_member in list:
             ele_members.get_attribute("title")
-
